@@ -13,3 +13,8 @@ void GameObject::Draw(SpriteRenderer& renderer)
 {
     renderer.DrawSprite(this->Sprite, this->Position, this->Size, this->Rotation, this->Color);
 }
+void GameObject::AddCollider(const Collider& collider)
+{
+    this->collider = collider;
+}
+
