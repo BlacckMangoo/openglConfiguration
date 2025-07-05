@@ -9,7 +9,7 @@ Shader& Shader::Use()
     return *this;
 }
 
-void Shader::Compile(const char* vertexSource, const char* fragmentSource, const char* geometrySource)
+void Shader::Compile(const char* vertexSource, const char* fragmentSource, const char* geometrySource )
 {
     unsigned int sVertex, sFragment, gShader;
     // vertex Shader

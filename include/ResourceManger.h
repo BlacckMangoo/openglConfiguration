@@ -17,6 +17,7 @@
 class ResourceManager
 {
 public:
+   
     // resource storage
     static std::map<std::string, Shader>    Shaders;
     static std::map<std::string, Texture2D> Textures;
